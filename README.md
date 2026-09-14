@@ -1,29 +1,51 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/patience-enoch/patience-enoch/main/ChatGPT%20Image%20Dec%206%2C%202025%2C%2005_29_15%20PM.png" alt="Patience Banner" width="100%">
+  <img src="https://raw.githubusercontent.com/PatienceEnoch/patience_enoch/main/ChatGPT%20Image%20Dec%206%2C%202025%2C%2005_29_15%20PM.png" alt="Patience Hopkins - Cloud and Network Engineering" width="100%">
 </p>
 
-### Hola, I'm Patience  
-Cybersecurity & Network Engineering Student, Linux Enthusiast, Builder of Light in Dark Systems
+# Hi, I'm Ashley "Patience" Hopkins
 
-### What I'm focusing on right now
-Learning offensive security techniques through hands-on labs  
-Building a full cybersecurity + networking home lab environment  
-Mastering Linux and the command line  
-Creating real-world projects (IDOR exploit analysis, network labs, scripting)  
+**Cloud & Network Engineering Student | CompTIA Network+ | CompTIA A+ | Linux Essentials | ITIL 4**
 
-### Skills & Tools
-**Networking:** TCP/IP, routing fundamentals, VLANs, firewalls  
-**Security:** IDOR, web vulnerabilities, packet analysis, threat hunting labs  
-**Systems:** Linux (Kali, Ubuntu Server), Windows  
-**Tools:** Wireshark, Burp Suite, Nmap, Git/GitHub, VirtualBox  
-**Languages:** Bash, Python (beginner)
+I am completing the AWS track of the B.S. Cloud and Network Engineering program at Western Governors University. I build hands-on projects in Linux administration, network troubleshooting, cloud infrastructure, and technical documentation while preparing for entry-level NOC, network support, systems administration, cloud support, and IT support roles in the Huntsville, Alabama area.
 
-### Featured Projects
-**IDOR Learning Project** — Hands on exploitation walkthrough    
-**BrainDump App** — Voice based capture tool for busy moms
+## Certifications
 
-### Philosophy
-“Light in one hand. Linux in the other.”  
-Building systems that illuminate, not obscure.
+- CompTIA Network+
+- CompTIA A+
+- LPI Linux Essentials
+- ITIL 4 Foundation
+- CompTIA IT Fundamentals
 
+## Technical Focus
 
+- **Networking:** TCP/IP, IPv4, subnetting, DNS, DHCP, NAT, VLANs, routing, switching, firewalls, and VPN troubleshooting
+- **Systems:** Linux, Windows, virtualization, permissions, services, logs, and system administration
+- **Cloud & Tools:** AWS, Cisco Packet Tracer, Wireshark, Git/GitHub, Bash, Docker fundamentals, and NGINX
+- **Scripting:** Python foundations, HTML, CSS, and JavaScript fundamentals
+
+## Featured Projects
+
+### [Network Flight Recorder](https://github.com/PatienceEnoch/network-flight-recorder)
+A working, local-first Linux network diagnostic MVP that records known-good state, detects meaningful changes during an outage, and produces an evidence-based incident report.
+
+### [Tor Middle Relay Deployment](https://github.com/PatienceEnoch/TOR_Relay)
+A documented non-exit Tor middle relay project demonstrating Linux service administration, TCP/IP networking, port configuration, log analysis, and traffic validation.
+
+### [Ubuntu Virtual Network Lab](https://github.com/PatienceEnoch/Ubuntu-virtual-network-lab)
+A two-VM Linux network with static addressing, routing, NAT, DNS, SSH, Apache, nftables, and tcpdump-based validation.
+
+### [Cloud & Network Engineering Portfolio](https://github.com/PatienceEnoch/Hopkins_portfolio)
+A focused overview of my certifications, technical skills, labs, and career direction.
+
+## Currently Building
+
+- Expanding Network Flight Recorder with reproducible failure scenarios and AWS-backed evidence storage
+- Strengthening Cisco networking knowledge in preparation for the CCNA
+- Continuing hands-on AWS, Linux, and Python development
+
+## Connect
+
+- [LinkedIn](https://www.linkedin.com/in/ashley-hopkins-432244329/)
+- [Portfolio](https://github.com/PatienceEnoch/Hopkins_portfolio)
+
+> "Light in one hand. Linux in the other."
