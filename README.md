@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PatienceEnoch/patience_enoch/main/ChatGPT%20Image%20Dec%206%2C%202025%2C%2005_29_15%20PM.png" alt="Patience Hopkins - Cloud and Network Engineering" width="100%">
+  <img src="https://raw.githubusercontent.com/PatienceEnoch/PatienceEnoch/main/ChatGPT%20Image%20Dec%206%2C%202025%2C%2005_29_15%20PM.png" alt="Patience Hopkins - Cloud and Network Engineering" width="100%">
 </p>
 
 # Hi, I'm Ashley "Patience" Hopkins
