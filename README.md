@@ -6,100 +6,156 @@
 
 **Cloud & Network Engineering Student | Security-Aware Networking | Linux | AWS | Python**
 
-I'm completing the AWS track of the B.S. Cloud and Network Engineering program at Western Governors University and working toward a career as a security-aware network engineer.
+I'm completing the **AWS track of the B.S. Cloud and Network Engineering program at Western Governors University** and working toward a career in network engineering with a strong security and troubleshooting focus.
 
-I learn best by building things, breaking them safely, and figuring out exactly why they failed.
+I learn best by **building things, breaking them safely, and figuring out exactly why they failed.**
 
-That has led me to projects involving Linux networking, routing, DNS, cloud infrastructure, observability, incident troubleshooting, security controls, Docker, Terraform, and Python. I am especially interested in the point where networking and security overlap: understanding what changed, what failed, what the evidence says, and how to recover safely.
+Most of my work lives where networking, Linux, cloud infrastructure, automation, and security overlap. I'm especially interested in understanding what changed during an incident, what the evidence says, and how systems can recover safely.
 
-My goal is not just to know how to configure infrastructure. I want to understand how it behaves when something goes wrong.
-
-## What I'm Building
-
-### [Network Flight Recorder](https://github.com/PatienceEnoch/network-flight-recorder)
-
-**A black box for your network.**
-
-Network Flight Recorder is an explainable Linux network troubleshooting and observability project that records known-good state, detects meaningful changes during an outage, correlates symptoms into likely root causes, and generates evidence-backed incident reports.
-
-The project now includes:
-
-- Linux network-state collection and comparison
-- Explainable root-cause correlation
-- Event recording, timelines, summaries, and incident tracking
-- Privacy-preserving evidence redaction
-- A reproducible Docker failure-injection lab
-- Terraform-managed AWS infrastructure
-- Private S3 evidence storage and CloudWatch monitoring
-- GitHub Actions CI, linting, dependency auditing, and Terraform validation
-- Approval-gated remediation guardrails
-
-This is the project that best represents the kind of engineer I want to become: someone who can troubleshoot deeply, automate carefully, and treat security as part of the design rather than an afterthought.
-
-### [Ubuntu Virtual Network Lab](https://github.com/PatienceEnoch/Ubuntu-virtual-network-lab)
-
-A hands-on Linux networking environment built with two Ubuntu virtual machines. The lab covers static addressing, routing, NAT, DNS, SSH, Apache, nftables, and packet-level validation with tcpdump.
-
-### [Tor Middle Relay Deployment](https://github.com/PatienceEnoch/TOR_Relay)
-
-A documented Tor middle-relay deployment focused on Linux service administration, TCP/IP networking, port configuration, log analysis, traffic validation, and privacy-aware infrastructure.
-
-### [IDOR Learning Project](https://github.com/PatienceEnoch/IDOR--Insecure_Direct_Object_Reference_Learning-Project)
-
-An authorized security lab documenting broken access control, HTTP request analysis, exploitation evidence, risk, and practical prevention techniques.
-
-### [Cloud & Network Engineering Portfolio](https://github.com/PatienceEnoch/Hopkins_portfolio)
-
-A broader collection of my certifications, labs, technical work, and development toward cloud and network engineering roles.
-
-## What I Work With
-
-**Networking**  
-TCP/IP, IPv4, subnetting, DNS, DHCP, NAT, VLANs, routing, switching, firewalls, VPN troubleshooting, reachability, latency, and packet analysis
-
-**Linux & Systems**  
-Ubuntu, systemd, permissions, services, logs, virtualization, Bash, SSH, NGINX, and system troubleshooting
-
-**Cloud & Infrastructure**  
-AWS, S3, CloudWatch, IAM, Terraform, Docker, infrastructure as code, and secure evidence handling
-
-**Development & Automation**  
-Python, pytest, Ruff, Git, GitHub Actions, JSON, command-line tooling, HTML, CSS, and JavaScript fundamentals
-
-**Security**  
-Access-control fundamentals, network visibility, packet analysis, logging, vulnerability awareness, dependency auditing, evidence protection, and secure-by-default design
-
-## Certifications
-
-- CompTIA Network+
-- CompTIA A+
-- LPI Linux Essentials
-- ITIL 4 Foundation
-- CompTIA IT Fundamentals
-
-## Currently Learning
-
-I'm continuing to deepen my skills in:
-
-- Cisco networking and CCNA-level concepts
-- Network observability and incident response
-- Linux administration
-- AWS networking and infrastructure
-- Python automation
-- Network defense and security engineering
-
-## What I'm Looking For
-
-I'm interested in opportunities where I can keep developing as a network and cloud engineer while bringing a security-focused troubleshooting mindset to the work.
-
-Areas that especially interest me include network engineering, NOC and network operations, cloud support, infrastructure support, systems administration, and security-aware networking.
-
-I'm based in North Alabama and particularly interested in opportunities in the Huntsville area.
-
-## Connect
-
-[LinkedIn](https://www.linkedin.com/in/ashley-hopkins-432244329/) | [Portfolio](https://github.com/PatienceEnoch/Hopkins_portfolio)
+> I don't just want to know how infrastructure is configured.  
+> I want to understand how it behaves when something goes wrong.
 
 ---
 
-> "Light in one hand. Linux in the other."
+# Featured Project
+
+## [Network Flight Recorder](https://github.com/PatienceEnoch/network-flight-recorder)
+
+### A black box for your network.
+
+Network Flight Recorder is an explainable Linux network troubleshooting and observability system designed to capture what happened **before, during, and after a network failure**.
+
+Instead of simply reporting that something is broken, the project collects evidence, compares network state, correlates symptoms, and helps identify likely root causes.
+
+### What it does
+
+- Captures Linux network state and establishes known-good baselines
+- Detects meaningful configuration and connectivity changes
+- Correlates symptoms into explainable root-cause findings
+- Records timestamped network events and incident timelines
+- Generates evidence-backed incident reports
+- Redacts sensitive information before evidence is stored
+- Reproduces failures inside an isolated Docker lab
+- Uses guarded remediation with explicit safety controls
+- Stores evidence securely in AWS
+- Automatically validates code and infrastructure through CI
+
+### Technologies
+
+`Python` · `Linux` · `Docker` · `Terraform` · `AWS` · `S3` · `CloudWatch` · `GitHub Actions` · `pytest` · `Ruff`
+
+This project best represents the kind of engineer I'm working to become: someone who can **troubleshoot deeply, automate carefully, and treat security as part of the architecture rather than an afterthought.**
+
+---
+
+# More Projects
+
+## [Ubuntu Virtual Network Lab](https://github.com/PatienceEnoch/Ubuntu-virtual-network-lab)
+
+A two-machine Ubuntu networking environment built to understand what actually happens underneath common network services.
+
+**Hands-on work includes:**
+
+`Static IP addressing` · `Routing` · `NAT` · `DNS` · `SSH` · `Apache` · `nftables` · `tcpdump`
+
+The lab helped me move beyond memorizing networking concepts and start observing routes, packets, firewall behavior, and service communication directly.
+
+---
+
+## [Tor Middle Relay Deployment](https://github.com/PatienceEnoch/TOR_Relay)
+
+A documented Tor middle-relay deployment focused on Linux infrastructure and network service administration.
+
+**Areas explored:**
+
+`TCP/IP` · `Linux services` · `Port configuration` · `Logging` · `Traffic validation` · `Privacy-aware infrastructure`
+
+---
+
+## [IDOR Security Learning Project](https://github.com/PatienceEnoch/IDOR--Insecure_Direct_Object_Reference_Learning-Project)
+
+An authorized security lab exploring **Insecure Direct Object Reference (IDOR)** vulnerabilities and broken access control.
+
+The project documents HTTP request behavior, exploitation evidence, security impact, and practical prevention techniques.
+
+---
+
+## [Cloud & Network Engineering Portfolio](https://github.com/PatienceEnoch/Hopkins_portfolio)
+
+A broader collection of my technical labs, certifications, coursework, projects, and development toward cloud and network engineering roles.
+
+---
+
+# Technical Toolkit
+
+### Networking
+
+`TCP/IP` · `IPv4` · `Subnetting` · `DNS` · `DHCP` · `NAT` · `VLANs` · `Routing` · `Switching` · `Firewalls` · `VPN Troubleshooting` · `Packet Analysis`
+
+### Linux & Systems
+
+`Ubuntu` · `systemd` · `Bash` · `SSH` · `NGINX` · `Permissions` · `Services` · `Logging` · `Virtualization` · `System Troubleshooting`
+
+### Cloud & Infrastructure
+
+`AWS` · `S3` · `CloudWatch` · `IAM` · `Terraform` · `Docker` · `Infrastructure as Code`
+
+### Development & Automation
+
+`Python` · `pytest` · `Ruff` · `Git` · `GitHub Actions` · `JSON` · `CLI Tooling`
+
+### Security
+
+`Network Visibility` · `Access Control` · `Packet Analysis` · `Logging` · `Dependency Auditing` · `Evidence Protection` · `Secure-by-Default Design`
+
+---
+
+# Certifications
+
+**CompTIA Network+**  
+**CompTIA A+**  
+**LPI Linux Essentials**  
+**ITIL 4 Foundation**  
+**CompTIA IT Fundamentals**
+
+---
+
+# What I'm Learning Now
+
+I'm continuing to deepen my skills in:
+
+**Cisco networking & CCNA concepts**  
+↓  
+**Linux administration & troubleshooting**  
+↓  
+**Network observability & incident response**  
+↓  
+**AWS networking & infrastructure**  
+↓  
+**Python automation**  
+↓  
+**Network defense & security engineering**
+
+My goal is to keep connecting these disciplines rather than learning them in isolation.
+
+---
+
+# Where I'm Headed
+
+I'm interested in opportunities where I can continue developing as a **network and cloud engineer** while bringing a security-focused troubleshooting mindset to the team.
+
+Roles that particularly interest me include:
+
+`Network Engineering` · `NOC / Network Operations` · `Cloud Support` · `Infrastructure Support` · `Systems Administration` · `Security-Aware Networking`
+
+I'm based in **North Alabama** and especially interested in opportunities in the **Huntsville area**.
+
+---
+
+# Connect
+
+[LinkedIn](https://www.linkedin.com/in/ashley-hopkins-432244329/) | [Technical Portfolio](https://github.com/PatienceEnoch/Hopkins_portfolio)
+
+---
+
+> **"Light in one hand. Linux in the other."**
