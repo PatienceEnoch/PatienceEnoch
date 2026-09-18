@@ -10,7 +10,7 @@ I'm completing the AWS track of the B.S. Cloud and Network Engineering program a
 
 Most of my learning happens in labs: build the system, break it on purpose, collect the evidence, and work backward until I can explain exactly what failed. Networking is the center of it, with Linux, cloud infrastructure, automation, and security layered around it.
 
-I care less about memorizing what a healthy system *should* look like than understanding what changed when it stops behaving that way.
+What interests me most is understanding what changed when a system stops behaving normally, and using the evidence to work backward to the cause.
 
 ## Current build: [Network Flight Recorder](https://github.com/PatienceEnoch/network-flight-recorder)
 
