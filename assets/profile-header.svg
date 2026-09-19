@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Patience Enoch — Cloud and Network Engineering</title>
+  <desc id="desc">A restrained network-operations banner with topology nodes and topographic contour lines.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="55%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#172033"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#94a3b8" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#grid)"/>
+
+  <!-- topographic contours -->
+  <g fill="none" stroke="#8fb8a8" stroke-opacity=".18" stroke-width="1.4">
+    <path d="M-40 280 C120 190,210 350,390 260 S690 150,840 245 S1090 310,1240 210"/>
+    <path d="M-20 305 C125 220,235 365,410 282 S690 185,855 268 S1080 335,1230 245"/>
+    <path d="M10 330 C145 250,260 385,430 305 S710 215,875 292 S1090 355,1210 278"/>
+    <path d="M690 55 C780 10,910 20,1015 75 S1190 115,1260 55"/>
+    <path d="M720 82 C815 38,920 48,1020 100 S1170 142,1240 92"/>
+  </g>
+
+  <!-- network topology -->
+  <g stroke="#93c5fd" stroke-opacity=".28" stroke-width="1.5">
+    <line x1="820" y1="120" x2="905" y2="86"/>
+    <line x1="905" y1="86" x2="1010" y2="132"/>
+    <line x1="1010" y1="132" x2="1088" y2="94"/>
+    <line x1="905" y1="86" x2="954" y2="188"/>
+    <line x1="954" y1="188" x2="1060" y2="220"/>
+    <line x1="1010" y1="132" x2="1060" y2="220"/>
+    <line x1="820" y1="120" x2="860" y2="220"/>
+    <line x1="860" y1="220" x2="954" y2="188"/>
+  </g>
+  <g fill="#cbd5e1">
+    <circle cx="820" cy="120" r="4"/>
+    <circle cx="905" cy="86" r="4"/>
+    <circle cx="1010" cy="132" r="4"/>
+    <circle cx="1088" cy="94" r="4"/>
+    <circle cx="954" cy="188" r="4"/>
+    <circle cx="1060" cy="220" r="4"/>
+    <circle cx="860" cy="220" r="4"/>
+  </g>
+
+  <text x="74" y="118" fill="#e5e7eb" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="18" letter-spacing="4">PATIENCE ENOCH</text>
+  <text x="72" y="184" fill="#ffffff" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="46" font-weight="700">Cloud &amp; Network Engineering</text>
+  <text x="74" y="228" fill="#b8c4d4" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="21">security-aware systems · observability · automation</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" fill="#9fb0c5">
+    <text x="74" y="298">// BUILD · BREAK SAFELY · EXPLAIN THE EVIDENCE</text>
+  </g>
+
+  <circle cx="48" cy="48" r="5" fill="#8fb8a8"/>
+  <circle cx="66" cy="48" r="5" fill="#93c5fd"/>
+  <circle cx="84" cy="48" r="5" fill="#64748b"/>
+</svg>
