@@ -6,28 +6,32 @@
 
 **Cloud & Network Engineering student · Linux · AWS · Python · Security-aware networking**
 
-I like systems I can take apart, understand, break safely, and make more observable.
+I learn best by building things and then figuring out why they work—or why they don't.
 
-I'm completing the AWS track of the B.S. Cloud and Network Engineering program at Western Governors University. Most of my learning happens in labs: build the system, create a controlled failure, collect the evidence, and work backward until I can explain exactly what changed.
+I'm working through the AWS track of WGU's B.S. Cloud and Network Engineering program. Most of what sticks for me comes from hands-on labs: setting something up, breaking it on purpose, looking at the evidence, and tracing the problem back to the source.
 
-Networking is the center of it, with Linux, cloud infrastructure, automation, and security layered around it.
+Networking is where I feel most at home, but I also spend a lot of time in Linux, AWS, Python, automation, and security.
 
 ## // CURRENT BUILDS
 
 ### [Network Flight Recorder](https://github.com/PatienceEnoch/network-flight-recorder)
 
-**A black box for your network.**
+I started this project because I wanted a better way to answer a simple troubleshooting question:
 
-A local-first network observability and troubleshooting tool that records known-good state, watches for meaningful changes, correlates symptoms into likely causes, preserves incident evidence, and supports guarded recovery.
+**What changed?**
 
-**What I care about in this build**
+Network Flight Recorder captures a known-good network state, watches for meaningful changes, and keeps enough evidence around to help explain what happened during a failure.
 
-- Evidence before action
-- Diagnosis that still works when the external network does not
-- Privacy-aware evidence handling before cloud upload
-- Approval-gated, allowlisted remediation with verification and rollback
-- Reproducible Docker failure injection
-- Automated Python and Terraform checks in GitHub Actions
+Some of the pieces I've built into it so far:
+
+- local-first troubleshooting
+- Docker-based failure injection
+- Python tests and CLI tooling
+- Terraform-managed AWS infrastructure
+- S3 evidence storage
+- CloudWatch metrics and logging
+- guarded remediation with verification and rollback
+- GitHub Actions for automated checks
 
 `Python` · `Linux` · `Docker` · `Terraform` · `AWS` · `S3` · `CloudWatch` · `GitHub Actions` · `pytest` · `Ruff`
 
@@ -37,33 +41,48 @@ A local-first network observability and troubleshooting tool that records known-
 
 ### [Shipment Tracker](https://github.com/PatienceEnoch/shipment-tracker)
 
-**A small operational problem turned into an automated workflow.**
+This project came from a real workflow problem: knowing whether a sales order actually made it from "created" to "FedEx has the package."
 
-Built for a real parts-sales workflow: a sales-order email starts a 72-hour clock, a tracking email attaches the FedEx number, and a second clock measures whether FedEx actually acquires the package. Once FedEx has possession, the order is complete.
+The app watches for a sales-order email, starts a 72-hour timer for the shipping label, matches the tracking number when it arrives, and then starts a second timer waiting for FedEx to acquire the package.
 
-The current version includes Gmail intake, automated alerting, deduplication, a browser dashboard, SQLite persistence, FastAPI endpoints, and GitHub Actions. The next integration point is FedEx's tracking API.
+Once FedEx has it, the order is done. The customer can track it from there.
+
+So far it has:
+
+- Gmail intake
+- automatic overdue alerts
+- alert deduplication
+- a browser dashboard
+- SQLite persistence
+- FastAPI endpoints
+- GitHub Actions
+- tests around the order and status flow
+
+The next piece is replacing the simulated FedEx event with the real FedEx tracking API.
 
 `Python` · `FastAPI` · `SQLAlchemy` · `SQLite` · `Gmail/IMAP` · `SMTP` · `GitHub Actions` · `pytest`
 
 [Read the project →](https://github.com/PatienceEnoch/shipment-tracker)
 
-## // PROJECTS IN THE FIELD
+## // OTHER HANDS-ON WORK
 
 ### [Ubuntu Virtual Network Lab](https://github.com/PatienceEnoch/Ubuntu-virtual-network-lab)
 
-Two Ubuntu systems used to work through routing, NAT, DNS, SSH, Apache, nftables, and packet inspection with `tcpdump`. This is where a lot of the networking theory became visible instead of abstract.
+Two Ubuntu systems I used to work through routing, NAT, DNS, SSH, Apache, nftables, and packet inspection with `tcpdump`.
+
+This lab helped turn a lot of networking concepts from diagrams into things I could actually see and troubleshoot.
 
 ### [Tor Middle Relay Deployment](https://github.com/PatienceEnoch/TOR_Relay)
 
-A documented Tor middle-relay deployment centered on Linux service administration, TCP/IP, port configuration, logging, and traffic validation.
+A documented Tor middle-relay deployment focused on Linux services, TCP/IP, port configuration, logging, and traffic validation.
 
 ### [IDOR Security Learning Project](https://github.com/PatienceEnoch/IDOR--Insecure_Direct_Object_Reference_Learning-Project)
 
-An authorized lab for studying insecure direct object references and broken access control through HTTP request behavior, exploitation evidence, impact, and prevention.
+An authorized lab for learning how insecure direct object references and broken access control show up in real HTTP requests.
 
 ### [Cloud & Network Engineering Portfolio](https://github.com/PatienceEnoch/Hopkins_portfolio)
 
-My broader technical notebook: labs, certifications, coursework, architecture notes, and project work as I build toward cloud and network engineering roles.
+My larger technical notebook with labs, certifications, coursework, architecture notes, and project work.
 
 ## // TOOLKIT
 
@@ -83,15 +102,17 @@ My broader technical notebook: labs, certifications, coursework, architecture no
 - ITIL 4 Foundation
 - CompTIA IT Fundamentals
 
-## // ENGINEERING NOTES
+## // WHAT I'M LEARNING NOW
 
-Right now I'm deepening the parts that connect directly to network engineering work: Cisco/CCNA concepts, Linux troubleshooting, AWS networking, network observability, Python automation, and defensive security.
+Right now I'm spending most of my time on Cisco/CCNA concepts, Linux troubleshooting, AWS networking, Python automation, network observability, and defensive security.
 
-The goal isn't to collect disconnected skills. I want to be able to follow a problem across the stack—from interface and route state to cloud infrastructure—and explain what the evidence shows.
+I'm trying to get better at following a problem across layers instead of treating each tool as its own separate thing.
 
 ## // WHERE I'M HEADED
 
-I'm working toward network and cloud engineering roles where troubleshooting matters: network operations, cloud support, infrastructure support, systems administration, and security-aware networking.
+I'm working toward network and cloud engineering roles where troubleshooting is a big part of the job.
+
+I'm especially interested in network operations, cloud support, infrastructure support, systems administration, and security-aware networking.
 
 I'm based in North Alabama and especially interested in the Huntsville area.
 
