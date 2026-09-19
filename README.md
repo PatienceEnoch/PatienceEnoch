@@ -96,9 +96,13 @@ A documented Tor middle-relay deployment focused on Linux services, TCP/IP, port
 
 An authorized lab for learning how insecure direct object references and broken access control show up in real HTTP requests.
 
+### [Cloud Network Architecture Journal](https://github.com/PatienceEnoch/Cloud_Network_Architecture_Journal)
+
+My technical journal for routing, distributed systems, cloud architecture, failure analysis, observability, and the engineering lessons I pull out of hands-on labs.
+
 ### [Cloud & Network Engineering Portfolio](https://github.com/PatienceEnoch/Hopkins_portfolio)
 
-My larger technical notebook with labs, certifications, coursework, architecture notes, and project work.
+My career-facing portfolio site with project highlights, certifications, career materials, and supporting web pages.
 
 ## // TOOLKIT
 
@@ -132,7 +136,7 @@ I'm especially interested in network operations, cloud support, infrastructure s
 
 I'm based in North Alabama and especially interested in the Huntsville area.
 
-[LinkedIn](https://www.linkedin.com/in/ashley-hopkins-432244329/) · [Technical Portfolio](https://github.com/PatienceEnoch/Hopkins_portfolio)
+[LinkedIn](https://www.linkedin.com/in/ashley-hopkins-432244329/) · [Architecture Journal](https://github.com/PatienceEnoch/Cloud_Network_Architecture_Journal) · [Portfolio](https://github.com/PatienceEnoch/Hopkins_portfolio)
 
 ---
 
