@@ -1,37 +1,53 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PatienceEnoch/PatienceEnoch/main/ChatGPT%20Image%20Dec%206%2C%202025%2C%2005_29_15%20PM.png" alt="Patience Hopkins - Cloud and Network Engineering" width="100%">
+  <img src="https://raw.githubusercontent.com/PatienceEnoch/PatienceEnoch/main/assets/profile-header.svg" alt="Patience Enoch — Cloud and Network Engineering" width="100%">
 </p>
 
 # Ashley "Patience" Hopkins
 
 **Cloud & Network Engineering student · Linux · AWS · Python · Security-aware networking**
 
-I'm completing the AWS track of the B.S. Cloud and Network Engineering program at Western Governors University.
+I like systems I can take apart, understand, break safely, and make more observable.
 
-Most of my learning happens in labs: build the system, break it on purpose, collect the evidence, and work backward until I can explain exactly what failed. Networking is the center of it, with Linux, cloud infrastructure, automation, and security layered around it.
+I'm completing the AWS track of the B.S. Cloud and Network Engineering program at Western Governors University. Most of my learning happens in labs: build the system, create a controlled failure, collect the evidence, and work backward until I can explain exactly what changed.
 
-What interests me most is understanding what changed when a system stops behaving normally, and using the evidence to work backward to the cause.
+Networking is the center of it, with Linux, cloud infrastructure, automation, and security layered around it.
 
-## Current build: [Network Flight Recorder](https://github.com/PatienceEnoch/network-flight-recorder)
+## // CURRENT BUILDS
+
+### [Network Flight Recorder](https://github.com/PatienceEnoch/network-flight-recorder)
 
 **A black box for your network.**
 
-Network Flight Recorder records a known-good Linux network state, watches for meaningful changes, correlates symptoms into likely causes, and preserves evidence through recovery.
+A local-first network observability and troubleshooting tool that records known-good state, watches for meaningful changes, correlates symptoms into likely causes, preserves incident evidence, and supports guarded recovery.
 
-A few decisions that shape the project:
+**What I care about in this build**
 
-- **Local-first diagnosis.** Core troubleshooting still works when the external network does not.
-- **Evidence before action.** Findings are tied to observable state instead of opaque alerts.
-- **Privacy before upload.** Sensitive network values can be pseudonymized before evidence is stored in AWS.
-- **Guarded recovery.** Remediation is approval-gated, allowlisted, verified after execution, and can roll back in the isolated lab when verification fails.
-- **Reproducible failure testing.** Docker creates real routing failures without touching the host network.
-- **Automated checks.** GitHub Actions validates Python, dependencies, and Terraform.
+- Evidence before action
+- Diagnosis that still works when the external network does not
+- Privacy-aware evidence handling before cloud upload
+- Approval-gated, allowlisted remediation with verification and rollback
+- Reproducible Docker failure injection
+- Automated Python and Terraform checks in GitHub Actions
 
 `Python` · `Linux` · `Docker` · `Terraform` · `AWS` · `S3` · `CloudWatch` · `GitHub Actions` · `pytest` · `Ruff`
 
 [Read the project →](https://github.com/PatienceEnoch/network-flight-recorder)
 
-## Other hands-on work
+---
+
+### [Shipment Tracker](https://github.com/PatienceEnoch/shipment-tracker)
+
+**A small operational problem turned into an automated workflow.**
+
+Built for a real parts-sales workflow: a sales-order email starts a 72-hour clock, a tracking email attaches the FedEx number, and a second clock measures whether FedEx actually acquires the package. Once FedEx has possession, the order is complete.
+
+The current version includes Gmail intake, automated alerting, deduplication, a browser dashboard, SQLite persistence, FastAPI endpoints, and GitHub Actions. The next integration point is FedEx's tracking API.
+
+`Python` · `FastAPI` · `SQLAlchemy` · `SQLite` · `Gmail/IMAP` · `SMTP` · `GitHub Actions` · `pytest`
+
+[Read the project →](https://github.com/PatienceEnoch/shipment-tracker)
+
+## // PROJECTS IN THE FIELD
 
 ### [Ubuntu Virtual Network Lab](https://github.com/PatienceEnoch/Ubuntu-virtual-network-lab)
 
@@ -49,17 +65,17 @@ An authorized lab for studying insecure direct object references and broken acce
 
 My broader technical notebook: labs, certifications, coursework, architecture notes, and project work as I build toward cloud and network engineering roles.
 
-## Toolkit
+## // TOOLKIT
 
 | Area | Working with |
 | --- | --- |
 | **Networking** | TCP/IP, IPv4, subnetting, DNS, DHCP, NAT, VLANs, routing, switching, firewalls, VPN troubleshooting, packet analysis |
 | **Linux & systems** | Ubuntu, systemd, Bash, SSH, NGINX, permissions, services, logging, virtualization, system troubleshooting |
 | **Cloud & infrastructure** | AWS, S3, CloudWatch, IAM, Terraform, Docker, infrastructure as code |
-| **Development & automation** | Python, pytest, Ruff, Git, GitHub Actions, JSON, CLI tooling |
+| **Development & automation** | Python, FastAPI, SQLAlchemy, pytest, Ruff, Git, GitHub Actions, JSON, CLI tooling |
 | **Security** | Network visibility, access control, dependency auditing, evidence protection, secure-by-default design |
 
-## Certifications
+## // CERTIFICATIONS
 
 - CompTIA Network+
 - CompTIA A+
@@ -67,15 +83,15 @@ My broader technical notebook: labs, certifications, coursework, architecture no
 - ITIL 4 Foundation
 - CompTIA IT Fundamentals
 
-## What I'm working on now
+## // ENGINEERING NOTES
 
-I'm deepening the parts that connect directly to network engineering work: Cisco/CCNA concepts, Linux troubleshooting, AWS networking, network observability, Python automation, and defensive security.
+Right now I'm deepening the parts that connect directly to network engineering work: Cisco/CCNA concepts, Linux troubleshooting, AWS networking, network observability, Python automation, and defensive security.
 
-The goal is not to collect disconnected skills. I want to be able to follow a problem across the stack—from interface and route state to cloud infrastructure—and explain what the evidence shows.
+The goal isn't to collect disconnected skills. I want to be able to follow a problem across the stack—from interface and route state to cloud infrastructure—and explain what the evidence shows.
 
-## Where I'm headed
+## // WHERE I'M HEADED
 
-I'm looking toward network and cloud engineering roles where troubleshooting matters: network operations, cloud support, infrastructure support, systems administration, and security-aware networking.
+I'm working toward network and cloud engineering roles where troubleshooting matters: network operations, cloud support, infrastructure support, systems administration, and security-aware networking.
 
 I'm based in North Alabama and especially interested in the Huntsville area.
 
@@ -83,4 +99,4 @@ I'm based in North Alabama and especially interested in the Huntsville area.
 
 ---
 
-> **"Light in one hand. Linux in the other."**
+> **Light in one hand. Linux in the other.**
