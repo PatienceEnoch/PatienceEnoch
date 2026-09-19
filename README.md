@@ -39,6 +39,22 @@ Some of the pieces I've built into it so far:
 
 ---
 
+### [Mini Internet](https://github.com/PatienceEnoch/mini-internet)
+
+I wanted to see what happens when a route disappears, so I built three connected routers with FRRouting and Docker Compose, each in its own autonomous system.
+
+Then I turned off the direct link between two of them. BGP found the backup path, but the return traffic took longer to catch up. Watching the ping pause made the difference between having a backup route and actually recovering a connection much clearer.
+
+I compared the original BGP timers with shorter settings on that link. In two manual runs, lost ping replies dropped from **176 to 7**. Both runs recovered through the third router, and restoring the link brought the direct route back.
+
+The repo includes the topology, route filters, commands to repeat the tests, and the results with their measurement limits.
+
+`BGP` · `FRRouting` · `Docker Compose` · `Linux` · `IPv4` · `Route filtering` · `Failover testing`
+
+[Read the project →](https://github.com/PatienceEnoch/mini-internet)
+
+---
+
 ### [Shipment Tracker](https://github.com/PatienceEnoch/shipment-tracker)
 
 This project came from a real workflow problem: knowing whether a sales order actually made it from "created" to "FedEx has the package."
