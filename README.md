@@ -55,6 +55,20 @@ The repo includes the topology, route filters, commands to repeat the tests, and
 
 ---
 
+### [Hybrid Cloud VPN Lab](https://github.com/PatienceEnoch/Ubuntu-virtual-network-lab/blob/main/docs/hybrid-cloud-vpn.md) — in progress
+
+I'm taking my Ubuntu routing lab beyond VirtualBox and connecting it to an AWS VPC over a real IPsec Site-to-Site VPN.
+
+The Ubuntu Server is the local router and strongSwan VPN endpoint. On the AWS side I'm building the VPC, Virtual Private Gateway, Customer Gateway, static routes, and the return path needed to move traffic between the two networks.
+
+The part I care about most is being able to trace a packet across the whole path instead of stopping at "the tunnel is up."
+
+`Linux` · `strongSwan` · `IPsec` · `nftables` · `AWS VPC` · `Site-to-Site VPN` · `Static routing`
+
+[Read the build notes →](https://github.com/PatienceEnoch/Ubuntu-virtual-network-lab/blob/main/docs/hybrid-cloud-vpn.md)
+
+---
+
 ### [Shipment Tracker](https://github.com/PatienceEnoch/shipment-tracker)
 
 This project came from a real workflow problem: knowing whether a sales order actually made it from "created" to "FedEx has the package."
@@ -86,21 +100,21 @@ The next piece is replacing the simulated FedEx event with the real FedEx tracki
 
 Two Ubuntu systems I used to work through routing, NAT, DNS, SSH, Apache, nftables, and packet inspection with `tcpdump`.
 
-This lab helped turn a lot of networking concepts from diagrams into things I could actually see and troubleshoot.
+This lab helped turn a lot of networking concepts from diagrams into things I could actually see and troubleshoot. It is now the local foundation for my Hybrid Cloud VPN Lab.
 
 ### [Tor Middle Relay Deployment](https://github.com/PatienceEnoch/TOR_Relay)
 
 A documented Tor middle-relay deployment focused on Linux services, TCP/IP, port configuration, logging, and traffic validation.
 
-### [IDOR Security Learning Project](https://github.com/PatienceEnoch/IDOR--Insecure_Direct_Object_Reference_Learning-Project)
+### [IDOR Security Learning Project](https://github.com/PatienceEnoch/IDOR--Insecure-Direct-Object-Reference-Learning-Project)
 
 An authorized lab for learning how insecure direct object references and broken access control show up in real HTTP requests.
 
-### [Cloud Network Architecture Journal](https://github.com/PatienceEnoch/Cloud_Network_Architecture_Journal)
+### [Cloud Network Architecture Journal](https://github.com/PatienceEnoch/Cloud-Network-Architecture-Journal)
 
 My technical journal for routing, distributed systems, cloud architecture, failure analysis, observability, and the engineering lessons I pull out of hands-on labs.
 
-### [Cloud & Network Engineering Portfolio](https://github.com/PatienceEnoch/Hopkins_portfolio)
+### [Cloud & Network Engineering Portfolio](https://github.com/PatienceEnoch/Hopkins-portfolio)
 
 My career-facing portfolio site with project highlights, certifications, career materials, and supporting web pages.
 
@@ -136,7 +150,7 @@ I'm especially interested in network operations, cloud support, infrastructure s
 
 I'm based in North Alabama and especially interested in the Huntsville area.
 
-[LinkedIn](https://www.linkedin.com/in/ashley-hopkins-432244329/) · [Architecture Journal](https://github.com/PatienceEnoch/Cloud_Network_Architecture_Journal) · [Portfolio](https://github.com/PatienceEnoch/Hopkins_portfolio)
+[LinkedIn](https://www.linkedin.com/in/ashley-hopkins-432244329/) · [Architecture Journal](https://github.com/PatienceEnoch/Cloud-Network-Architecture-Journal) · [Portfolio](https://github.com/PatienceEnoch/Hopkins-portfolio)
 
 ---
 
