@@ -55,17 +55,17 @@ The repo includes the topology, route filters, commands to repeat the tests, and
 
 ---
 
-### [Hybrid Cloud VPN Lab](https://github.com/PatienceEnoch/Ubuntu-virtual-network-lab/blob/main/docs/hybrid-cloud-vpn.md) — in progress
+### [Site-to-Site IPsec VPN Lab](https://github.com/PatienceEnoch/Ubuntu-virtual-network-lab/blob/main/docs/local-site-to-site-ipsec-validation.md)
 
-I'm taking my Ubuntu routing lab beyond VirtualBox and connecting it to an AWS VPC over a real IPsec Site-to-Site VPN.
+I wanted to understand what "the tunnel is up" actually proves, so I built both sides of a routed IPsec path and traced traffic all the way through it.
 
-The Ubuntu Server is the local router and strongSwan VPN endpoint. On the AWS side I'm building the VPC, Virtual Private Gateway, Customer Gateway, static routes, and the return path needed to move traffic between the two networks.
+The Ubuntu Client at `10.10.10.10` reaches a simulated cloud workload at `10.20.0.10` through two Linux gateways and a strongSwan IKEv2/IPsec tunnel. I worked through NAT exemption, XFRM policy/state, forwarding, return routing, ARP, tcpdump, network namespaces, veth pairs, and duplicate Security Associations.
 
-The part I care about most is being able to trace a packet across the whole path instead of stopping at "the tunnel is up."
+The finished lab survives reboot on both gateways and returns end-to-end traffic with 0% packet loss. The next phase is applying the same troubleshooting method to AWS Site-to-Site VPN.
 
-`Linux` · `strongSwan` · `IPsec` · `nftables` · `AWS VPC` · `Site-to-Site VPN` · `Static routing`
+`Linux` · `strongSwan` · `IKEv2` · `IPsec` · `XFRM` · `nftables` · `tcpdump` · `network namespaces` · `systemd`
 
-[Read the build notes →](https://github.com/PatienceEnoch/Ubuntu-virtual-network-lab/blob/main/docs/hybrid-cloud-vpn.md)
+[Read the validation notes →](https://github.com/PatienceEnoch/Ubuntu-virtual-network-lab/blob/main/docs/local-site-to-site-ipsec-validation.md) · [AWS extension →](https://github.com/PatienceEnoch/Ubuntu-virtual-network-lab/blob/main/docs/hybrid-cloud-vpn.md)
 
 ---
 
