@@ -154,4 +154,16 @@ I'm based in North Alabama and especially interested in the Huntsville area.
 
 ---
 
-> **Light in one hand. Linux in the other.**
+```console
+patience@edge:~$ disconnect
+
+Closing incident records............. [OK]
+Saving field notes................... [OK]
+Preserving packet captures........... [OK]
+Leaving the network better understood [OK]
+
+Connection closed.
+
+Light in one hand.
+Linux in the other.
+```
