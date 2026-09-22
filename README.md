@@ -166,6 +166,10 @@ I'm based in North Alabama and especially interested in the Huntsville area.
 
 ---
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PatienceEnoch/PatienceEnoch/main/assets/patience-waterfall-banner-github.jpg" alt="Patience beneath a waterfall" width="100%">
+</p>
+
 ```console
 patience@edge:~$ disconnect
 
