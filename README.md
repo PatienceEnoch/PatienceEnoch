@@ -12,7 +12,7 @@ I'm working through the AWS track of WGU's B.S. Cloud and Network Engineering pr
 
 Networking is where I feel most at home, but I also spend a lot of time in Linux, AWS, Python, automation, and security.
 
-## // CURRENT BUILDS
+## // ACTIVE SYSTEMS
 
 ### [Network Flight Recorder](https://github.com/PatienceEnoch/network-flight-recorder)
 
@@ -94,7 +94,7 @@ The next piece is replacing the simulated FedEx event with the real FedEx tracki
 
 [Read the project →](https://github.com/PatienceEnoch/shipment-tracker)
 
-## // OTHER HANDS-ON WORK
+## // FIELD NOTES
 
 ### [Ubuntu Virtual Network Lab](https://github.com/PatienceEnoch/Ubuntu-virtual-network-lab)
 
@@ -118,7 +118,17 @@ My technical journal for routing, distributed systems, cloud architecture, failu
 
 My career-facing portfolio site with project highlights, certifications, career materials, and supporting web pages.
 
-## // TOOLKIT
+## // INCIDENT RECORDS
+
+A few failures that taught me more than the clean builds did:
+
+| Incident | What I followed |
+| --- | --- |
+| **BGP path failure** | Removed the direct path between two routers, watched traffic fail over through a third, then compared convergence with different timer settings. |
+| **IPsec tunnel without end-to-end traffic** | Treated "the tunnel is up" as only one clue and traced routing, forwarding, NAT exemption, XFRM state, ARP, and return traffic until the full path worked. |
+| **Injected network failures** | Used controlled breakage in the Network Flight Recorder lab to capture evidence, compare network state, verify remediation, and preserve a rollback path. |
+
+## // ROUTING TABLE
 
 | Area | Working with |
 | --- | --- |
@@ -128,7 +138,7 @@ My career-facing portfolio site with project highlights, certifications, career 
 | **Development & automation** | Python, FastAPI, SQLAlchemy, pytest, Ruff, Git, GitHub Actions, JSON, CLI tooling |
 | **Security** | Network visibility, access control, dependency auditing, evidence protection, secure-by-default design |
 
-## // CERTIFICATIONS
+## // CREDENTIALS
 
 - CompTIA Network+
 - CompTIA A+
@@ -136,19 +146,21 @@ My career-facing portfolio site with project highlights, certifications, career 
 - ITIL 4 Foundation
 - CompTIA IT Fundamentals
 
-## // WHAT I'M LEARNING NOW
+## // CURRENT ROUTE
 
 Right now I'm spending most of my time on Cisco/CCNA concepts, Linux troubleshooting, AWS networking, Python automation, network observability, and defensive security.
 
 I'm trying to get better at following a problem across layers instead of treating each tool as its own separate thing.
 
-## // WHERE I'M HEADED
+## // NEXT HOP
 
 I'm working toward network and cloud engineering roles where troubleshooting is a big part of the job.
 
 I'm especially interested in network operations, cloud support, infrastructure support, systems administration, and security-aware networking.
 
 I'm based in North Alabama and especially interested in the Huntsville area.
+
+## // UPLINK
 
 [LinkedIn](https://www.linkedin.com/in/ashley-hopkins-432244329/) · [Architecture Journal](https://github.com/PatienceEnoch/Cloud-Network-Architecture-Journal) · [Portfolio](https://github.com/PatienceEnoch/Hopkins-portfolio)
 
