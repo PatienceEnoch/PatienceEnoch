@@ -14,7 +14,7 @@ Networking is where I feel most at home, but I also spend a lot of time in Linux
 
 ## // ACTIVE SYSTEMS
 
-### [LastKnownGood](https://github.com/PatienceEnoch/network-flight-recorder)
+### [LastKnownGood](https://github.com/PatienceEnoch/last-known-good)
 
 I started this project because I wanted a better way to answer a simple troubleshooting question:
 
@@ -35,7 +35,7 @@ Some of the pieces I've built into it so far:
 
 `Python` · `Linux` · `Docker` · `Terraform` · `AWS` · `S3` · `CloudWatch` · `GitHub Actions` · `pytest` · `Ruff`
 
-[Read the project →](https://github.com/PatienceEnoch/network-flight-recorder)
+[Read the project →](https://github.com/PatienceEnoch/last-known-good)
 
 ---
 
