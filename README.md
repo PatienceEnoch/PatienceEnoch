@@ -14,13 +14,13 @@ Networking is where I feel most at home, but I also spend a lot of time in Linux
 
 ## // ACTIVE SYSTEMS
 
-### [Network Flight Recorder](https://github.com/PatienceEnoch/network-flight-recorder)
+### [LastKnownGood](https://github.com/PatienceEnoch/network-flight-recorder)
 
 I started this project because I wanted a better way to answer a simple troubleshooting question:
 
 **What changed?**
 
-Network Flight Recorder captures a known-good network state, watches for meaningful changes, and keeps enough evidence around to help explain what happened during a failure.
+LastKnownGood captures a known-good network state, watches for meaningful changes, and keeps enough evidence around to help explain what happened during a failure.
 
 Some of the pieces I've built into it so far:
 
@@ -126,7 +126,7 @@ A few failures that taught me more than the clean builds did:
 | --- | --- |
 | **BGP path failure** | Removed the direct path between two routers, watched traffic fail over through a third, then compared convergence with different timer settings. |
 | **IPsec tunnel without end-to-end traffic** | Treated "the tunnel is up" as only one clue and traced routing, forwarding, NAT exemption, XFRM state, ARP, and return traffic until the full path worked. |
-| **Injected network failures** | Used controlled breakage in the Network Flight Recorder lab to capture evidence, compare network state, verify remediation, and preserve a rollback path. |
+| **Injected network failures** | Used controlled breakage in the LastKnownGood lab to capture evidence, compare network state, verify remediation, and preserve a rollback path. |
 
 ## // ROUTING TABLE
 
