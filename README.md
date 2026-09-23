@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="@@PROTECTED_0@@" alt="Patience Enoch, Cloud and Network Engineering" width="100%">
+  <img src="https://raw.githubusercontent.com/PatienceEnoch/PatienceEnoch/main/assets/profile-header.svg" alt="Patience Enoch, Cloud and Network Engineering" width="100%">
 </p>
 
 # Ashley "Patience" Hopkins
@@ -173,7 +173,7 @@ I'm based in North Alabama and especially interested in the Huntsville area.
 ---
 
 <p align="center">
-  <img src="@@PROTECTED_0@@" alt="Patience beneath a waterfall" width="100%">
+  <img src="https://raw.githubusercontent.com/PatienceEnoch/PatienceEnoch/main/assets/patience-waterfall-banner-github.jpg" alt="Patience beneath a waterfall" width="100%">
 </p>
 
 ```console
