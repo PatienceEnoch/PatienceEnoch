@@ -6,7 +6,7 @@
 
 **Cloud & Network Engineering student · Linux · AWS · Python · Security-aware networking**
 
-I learn best by building things and then figuring out why they work—or why they don't.
+I learn best by building things and then figuring out why they work or why they don't.
 
 I'm working through the AWS track of WGU's B.S. Cloud and Network Engineering program. Most of what sticks for me comes from hands-on labs: setting something up, breaking it on purpose, looking at the evidence, and tracing the problem back to the source.
 
