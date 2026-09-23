@@ -12,6 +12,12 @@ I'm working through the AWS track of WGU's B.S. Cloud and Network Engineering pr
 
 Networking is where I feel most at home, but I also spend a lot of time in Linux, AWS, Python, automation, and security.
 
+## // WHERE IT STARTED
+
+My interest in technology started in the early 2000s. My brother introduced me to Linux, and I spent a lot of time in online forums learning HTML, experimenting with computers, and trying to understand how everything worked underneath the interface.
+
+That curiosity never really went away. Today, it has turned into a focus on networking, Linux, cloud infrastructure, and security.
+
 ## // ACTIVE SYSTEMS
 
 ### [LastKnownGood](https://github.com/PatienceEnoch/last-known-good)
