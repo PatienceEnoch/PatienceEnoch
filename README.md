@@ -168,7 +168,7 @@ I'm based in North Alabama and especially interested in the Huntsville area.
 
 ## // UPLINK
 
-[LinkedIn](https://www.linkedin.com/in/ashley-hopkins-432244329/) · [Architecture Journal](https://github.com/PatienceEnoch/Cloud-Network-Architecture-Journal) · [Portfolio](https://github.com/PatienceEnoch/Hopkins-portfolio)
+[LinkedIn](https://www.linkedin.com/in/ashley-hopkins-432244329/) · [Network / Cloud Portfolio](https://github.com/PatienceEnoch/Hopkins-portfolio) · [Architecture Journal](https://github.com/PatienceEnoch/Cloud-Network-Architecture-Journal)
 
 ---
 
